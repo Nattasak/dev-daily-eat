@@ -1,6 +1,9 @@
 <template>
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <FoodSuggester />
   </div>
 </template>
+
+<script setup>
+  import FoodSuggester from '~/components/FoodSuggester.vue'
+</script>
